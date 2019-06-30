@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button1_str">click now</string>
+    <string name="button2_str">back</string>
+    <string name="text1_str">Hello World!!</string>
+    <string name="radiobutton1_str">show textView</string>
+    <string name="radiobutton2_str">show editText</string>
+    <string name="button_click">"button clicked"</string>
+</resources>
