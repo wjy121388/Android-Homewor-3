@@ -1,5 +1,6 @@
 package com.example.wjy.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private TextView tv1;
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         tv1 = findViewById(R.id.textView);
         etv1 = findViewById(R.id.editText);
         bt1 = findViewById(R.id.button);
@@ -41,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Log.d(TAG,"button 'click now' clicked");
+                Toast.makeText(MainActivity.this,"我被点了一下", Toast.LENGTH_SHORT).show();
                 tv1.setText(R.string.button_click);
                 img1.setImageDrawable(getDrawable(R.drawable.ic_launcher_background));
             }
@@ -76,6 +80,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        
+        startActivity(new Intent(this,Main2Activity.class));
+
     }
 
 }
