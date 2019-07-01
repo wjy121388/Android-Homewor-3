@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Android-Homwork-2
 
 >❏ Exercises1：打印出Activity屏幕切换 Activity会执⾏行行什什么⽣生命周期？  
@@ -12,3 +13,13 @@ recyclerview) UI样式类似即可，第⼀一⾏行行平均分居中，底下�
 SingleTop C是 SingleTask D是SingleInstance ，⽤用户的启动顺序是ABCD ABCD
 AB,问1.最后启动到B的时候，当前Activity栈的情况，2.如果⽤用户⼀一致点返回键，
 退栈顺序，最好能够写上原因
+=======
+# Android-Homework-zjtd
+## 第一次课堂练习
+
+>❏ 创建一个Android app工程，包含一个activity（环境可以参考 demo）  
+❏ 使用5种以上的View并实现一些简单交互  
+❏ ImageView, Button, TextView, RadioButton, CheckBox,EditText, ProgressBar, SeekBar, Switch 等等不限  
+❏ 将一些交互结果输出log  
+❏ 打包生成apk
+>>>>>>> 32ec81094dbc0b26e8e740d135d81c5b0ae83149
