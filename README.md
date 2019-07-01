@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Android-Homwork-2
 
 >❏ Exercises1：打印出Activity屏幕切换 Activity会执⾏行行什什么⽣生命周期？  
