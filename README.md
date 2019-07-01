@@ -1,6 +1,6 @@
 # Android-Homwork-2
->
-❏ Exercises1：打印出Activity屏幕切换 Activity会执⾏行行什什么⽣生命周期？  
+
+>❏ Exercises1：打印出Activity屏幕切换 Activity会执⾏行行什什么⽣生命周期？  
 ❏ Exercises2：⼀一个抖⾳音笔试题：统计⻚页⾯面所有view的个数 ViewGroup中的API
 ： getChildCount() getChildAt()  
 ❏ Exercises3:实现⼀一个抖⾳音消息⻚页⾯面，如右图-> ,并且点击每个listview的item,能够
