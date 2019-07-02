@@ -6,4 +6,7 @@
     <string name="radiobutton1_str">show textView</string>
     <string name="radiobutton2_str">show editText</string>
     <string name="button_click">"button clicked"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
